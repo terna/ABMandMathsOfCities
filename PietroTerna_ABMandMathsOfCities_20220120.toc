@@ -1,0 +1,18 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{ABMs}{3}{0}{1}
+\beamer@sectionintoc {2}{The virus model}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{An ABM on virus diffusion}{10}{0}{2}
+\beamer@sectionintoc {3}{How the model works}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{A circular scheme}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Contagion representation}{18}{0}{3}
+\beamer@sectionintoc {4}{Exploring cases}{21}{0}{4}
+\beamer@subsectionintoc {4}{1}{Simulation batches}{21}{0}{4}
+\beamer@subsectionintoc {4}{2}{Epidemics without and with control}{22}{0}{4}
+\beamer@subsectionintoc {4}{3}{Actual data}{24}{0}{4}
+\beamer@sectionintoc {5}{Factual/counterfactual analyses}{27}{0}{5}
+\beamer@sectionintoc {6}{Planning vaccination campaigns}{35}{0}{6}
+\beamer@subsectionintoc {6}{1}{Introduction}{35}{0}{6}
+\beamer@subsectionintoc {6}{2}{An experiment with GA}{38}{0}{6}
+\beamer@subsectionintoc {6}{3}{What if}{42}{0}{6}
+\beamer@sectionintoc {7}{A new model}{44}{0}{7}
+\beamer@sectionintoc {8}{NetLogo}{47}{0}{8}
