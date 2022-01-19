@@ -441,9 +441,6 @@ This enables understanding at a glance how an epidemic episode is developing. In
 \section{Exploring cases}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Simulation batches}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Simulation batches}
 
   \begin{itemize}
@@ -576,7 +573,7 @@ std   &       368.49 &                  916.41 &    213.48 \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Updated series, with a third wave (data until the middle of January 2022)}
+\begin{frame}{Updated series, with a third wave (data at January \nth{19}, 2022)}
 
 \begin{figure}[H]
 \center
@@ -878,14 +875,49 @@ second wave       & std   &  89.6 &        234.2 &   170.7 &          450.2 &  1
 \subsection{Introduction}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{2021: planning a vaccination campaign using GAs (with non-pharmaceutical containment measures in action)}
+\begin{frame}{Genetic Algorithms (GAs) and how to use them our case}
+
 
 \begin{itemize}
 
-%\item An introduction to genetic algorithms (GAs) is at \url{https://en.wikipedia.org/wiki/Genetic_algorithm}, with the related Holland's schema theorem at 
-%\url{https://en.wikipedia.org/wiki/Holland's_schema_theorem}.
+\item An introduction to genetic algorithms (GAs) is at \href{https://en.wikipedia.org/wiki/Genetic_algorithm}{https://en.wikipedia.org/wiki/Genetic\_algorithm}, with the related Holland's schema theorem at \href{https://en.wikipedia.org/wiki/Holland's_schema_theorem}{https://en.wikipedia.org/wiki/Holland's\_schema\_theorem}.
 
-\item Exploring vaccination sequences, using \emph{genetic algorithms}. A detailed note is at \href{https://terna.to.it/simul/GAresultPresentation.pdf}{https://terna.to.it/simul/GAresultPresentation.pdf} and the analysis is in Section 7 of the paper at \href{https://arxiv.org/abs/2108.08885}{https://arxiv.org/abs/2108.08885}.
+
+\item Exploring vaccination sequences, using \emph{genetic algorithms}: a detailed note is at \href{https://terna.to.it/simul/GAresultPresentation.pdf}{https://terna.to.it/simul/GAresultPresentation.pdf} and the analysis is in Section 7 of the paper at \href{https://arxiv.org/abs/2108.08885}{https://arxiv.org/abs/2108.08885}.
+
+\item In our case we have to decide how to assign vaccinations over time to the seven groups of persons.
+
+\item We evolve populations of models whose parameters correspond to their genome. We create newer and newer populations, randomly extracting models using a roulette having the dimension of the pockets proportional to the fitness. After extraction, we cross the genomes with random copy errors, and so on. Fitness is the total number of symptomatic people (death people come from there) with the minimum value as the goal.
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{How we organize the parameters (an example)}
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=7cm]{GApar.png}
+\caption{From the day of the first column, the quantity of vaccination of each group follows the quotas of the related columns}
+\label{GApar}
+\end{figure}
+
+\begin{figure}[H]
+\center
+\includegraphics[width=6.5cm]{groups.png}
+\caption{Susceptible persons at the beginning of the simulation and when the vaccination campaign starts, day 373, Feb. 12th, 2021}
+\label{groups}
+\end{figure}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{2021: planning a vaccination campaign using GAs, with non-pharmaceutical containment measures in action, but {\color{red} without the inclusion of the new external input, i.e., the Omicron variant}}
+
+\begin{itemize}
 
 \item We compare the effect of choosing the vaccination quotas via GAs with two predetermined strategies, considering three hypotheses (vaccinated people: still spread the contagion; do not spread the contagion; do it in the 50\% of the case); we show here only the first case results.
 
@@ -1034,37 +1066,6 @@ We take into consideration seven groups in order of decreasing fragility but als
 
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{What if}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{What if}
-\center
-What if we increase quantities in \emph{plain} and \emph{wise} strategies?
-
-\begin{table}[H]
-\centering
-\begin{small} % or footnotesize, scriptsize, tiny, etc.
-\begin{tabular}{ccc}
-\toprule
-From day & Q. & Q. + \\
-\midrule
-373      & 5           & 10            \\
-433      & 10         & 15            \\
-493      & 10         & 25            \\
-553      & 10         & 25            \\
-613      & 20         & 25            \\
-738      & end     \\ 
-\bottomrule  
-\end{tabular}
-\end{small}
-\caption{New daily quantities}
-\label{quotaTablePlus}
-\end{table}
-
-
-\end{frame}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Synopsis}
@@ -1128,9 +1129,10 @@ I            & 197 & 325 & 236 & 263 & \textbf{200}   \\
 \color{red}
 \item Transportations.
 \item Aggregation places: happy hours, night life, sport stadiums, discotheques, \ldots
+\item New variants (Delta, Omicron, \ldots)
+
 \color{blue}
 \item Networks (family networks, professional networks, high-contact individuals,\footnote{G. Manzo and A. van de Rijt. Halting sars-cov-2 by targeting high-contact individuals. Journal of Artificial Societies and Social Simulation, 23(4):10, 2020. ISSN 1460-7425. doi: 10.18564/jasss.4435. URL http://jasss.soc.surrey.ac.uk/23/4/10.html.} \ldots) 
-\item New variants (Delta, Omicron, \ldots)
 
 \end{itemize}
 
