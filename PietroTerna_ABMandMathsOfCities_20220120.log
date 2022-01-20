@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  19 JAN 2022 22:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  20 JAN 2022 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2429,91 +2429,6 @@ Overfull \hbox (1.32751pt too wide) in paragraph at lines 869--869
  []
 
 
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 140.0| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 140.0| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 140.0| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 140.0| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 140.0| 
- []
-
-
-Overfull \hbox (0.93547pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 mean| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/b/n/7 248.4| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/b/n/7 648.7| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 701.1| 
- []
-
-
-Overfull \hbox (5.02364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 1757.9| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 594.2| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 167.4| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 424.3| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 246.4| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 599.7| 
- []
-
-
-Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 118.9| 
- []
-
-
-Overfull \hbox (1.32751pt too wide) in paragraph at lines 869--869
-[]\T1/ptm/m/n/7 count| 
- []
-
-
 Overfull \hbox (5.02364pt too wide) in paragraph at lines 869--869
 []\T1/ptm/m/n/7 1044.0| 
  []
@@ -2833,10 +2748,6 @@ Overfull \hbox (1.52364pt too wide) in paragraph at lines 869--869
 []\T1/ptm/m/n/7 116.9| 
  []
 
-
-Overfull \vbox (13.11008pt too high) detected at line 869
- []
-
 [34
 
 ] [35
@@ -2996,7 +2907,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  20681 strings out of 480608
  391404 string characters out of 5903631
- 713196 words of memory out of 5000000
+ 709196 words of memory out of 5000000
  35874 multiletter control sequences out of 15000+600000
  584132 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3009,8 +2920,8 @@ e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 20/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on PietroTerna_ABMandMathsOfCities_20220120.pdf (49 pages, 44702
-14 bytes).
+Output written on PietroTerna_ABMandMathsOfCities_20220120.pdf (49 pages, 44701
+90 bytes).
 PDF statistics:
  4317 PDF objects out of 5155 (max. 8388607)
  4084 compressed objects within 41 object streams

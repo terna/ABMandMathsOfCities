@@ -267,13 +267,13 @@ We take charge of the variability of the epidemic paths within the simulation, r
 As the agents can be Susceptible, Infected, symptomatic, asymptomatic, and Recovered, the name of the model is S.I.s.a.R., with the capital letters recalling the S.I.R. scheme.
 
 \item 
-We use NetLogo (\href{https://ccl.northwestern.edu/netlogo/}{https://arxiv.org/abs/2108.08885}).
+We use NetLogo (\href{https://ccl.northwestern.edu/netlogo/}{https://ccl.northwestern.edu/netlogo/}).
 
 \item
 S.I.s.a.R. is at \href{https://terna.to.it/simul/SIsaR.html}{https://terna.to.it/simul/SIsaR.html} with information on model construction, and an online executable version.
 
 \item
- A paper is published at \href{https://arxiv.org/abs/2108.08885}{https://terna.to.it/simul/SIsaR.html}
+ A paper is published at \href{https://arxiv.org/abs/2108.08885}{https://arxiv.org/abs/2108.08885}
 
 \item 
 The model includes the structural data of Piedmont, an Italian region, but we can easily calibrate it for other areas. The simulation reproduces a realistic calendar (e.g., national or local government decisions) via a dedicated script interpreter.
@@ -817,7 +817,7 @@ std   &     14.1 &                       42.6 &     16.7 &                      
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{To recap (2020 waves)}
+\begin{frame}{To recap (2020 second wave)}
 
 \begin{table}[H]
 \center
@@ -827,11 +827,11 @@ std   &     14.1 &                       42.6 &     16.7 &                      
 Scenarios     &    &  Dec~15,~20 &               & Dec~15,~20~~~to~~~end  &  &\\
                      &    & sympt.           &  totalInf. &  sympt. &  totalInf.  & days   \\                               
 
-\midrule
-no \\
-containments in   & count & 140.0 &                      140.0 &                140.0 &                   140.0 &  140.0 \\
-spontaneous         &  mean  &  \textbf{248.4} &                      \textbf{648.7} &      701.1 &                  1757.9 &  594.2 \\
-second wave         & std  &  167.4 &                      424.3 &               246.4 &                   599.7 &  118.9 \\
+%\midrule
+%no \\
+%containments in   & count & 140.0 &                      140.0 &                140.0 &                   140.0 &  140.0 \\
+%spontaneous         &  mean  &  \textbf{248.4} &                      \textbf{648.7} &      701.1 &                  1757.9 &  594.2 \\
+%second wave         & std  &  167.4 &                      424.3 &               246.4 &                   599.7 &  118.9 \\
 
 \midrule
 no \\
@@ -885,7 +885,7 @@ second wave       & std   &  89.6 &        234.2 &   170.7 &          450.2 &  1
 
 \item Exploring vaccination sequences, using \emph{genetic algorithms}: a detailed note is at \href{https://terna.to.it/simul/GAresultPresentation.pdf}{https://terna.to.it/simul/GAresultPresentation.pdf} and the analysis is in Section 7 of the paper at \href{https://arxiv.org/abs/2108.08885}{https://arxiv.org/abs/2108.08885}.
 
-\item In our case we have to decide how to assign vaccinations over time to the seven groups of persons.
+\item In our case we have to decide how to assign vaccinations over time to seven groups of persons.
 
 \item We evolve populations of models whose parameters correspond to their genome. We create newer and newer populations, randomly extracting models using a roulette having the dimension of the pockets proportional to the fitness. After extraction, we cross the genomes with random copy errors, and so on. Fitness is the total number of symptomatic people (death people come from there) with the minimum value as the goal.
 
@@ -894,7 +894,7 @@ second wave       & std   &  89.6 &        234.2 &   170.7 &          450.2 &  1
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{How we organize the parameters (an example)}
+\begin{frame}{How to organize the parameters to produce a genome (the numbers are just examples)}
 
 
 \begin{figure}[H]
